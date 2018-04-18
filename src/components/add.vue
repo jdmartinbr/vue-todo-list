@@ -86,6 +86,12 @@
 </script>
 
 <style>
+
+
+  .input-wrapper {
+    margin-top: 50px;
+  }
+
   .text-color{
     color: #6c757d;
   }

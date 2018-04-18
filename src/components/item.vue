@@ -50,6 +50,17 @@
 
 <style scoped>
 
+  .item-list {
+    background-color: white;
+    height: auto;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow:    0px 0px 11px 0px rgba(50, 50, 50, 0.2);
+    box-shadow:         0px 0px 11px 0px rgba(50, 50, 50, 0.2);
+    border-left: 5px solid transparent;
+  }
+
   .delete-icon {
     font-size: 35px;
     margin-left: auto;
@@ -66,12 +77,6 @@
   .test:hover .delete-icon {
     color: red;
     opacity: 1;
-  }
-
-  .item-checkbox{
-    height: 1em;
-    width: 1em;
-    margin-right: 1em;
   }
 
   /* Customize the label (the container) */
@@ -131,8 +136,8 @@
   .containerCb .checkmarkCb:after {
     left: 9px;
     top: 5px;
-    width: 5px;
-    height: 10px;
+    width: 7px;
+    height: 12px;
     border: solid white;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
